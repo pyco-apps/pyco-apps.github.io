@@ -22,6 +22,5 @@ coverage.xml
 # logging files
 *.log
 
-# rez specific
+# mkdocs
 build/
-build.rxt

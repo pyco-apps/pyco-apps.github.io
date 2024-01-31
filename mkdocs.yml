@@ -4,6 +4,7 @@ site_author: Liam Collod
 site_description: Software for CGI and creatives.
 
 docs_dir: 'site'
+site_dir: 'build'
 
 theme:
   name: material
