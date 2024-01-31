@@ -2,6 +2,7 @@ site_name: PYCO
 edit_uri: edit/main/docs/
 site_author: Liam Collod
 site_description: Software for CGI and creatives.
+copyright: Copyright &copy; 2024 Liam Collod
 
 docs_dir: 'site'
 site_dir: 'build'
