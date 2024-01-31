@@ -12,7 +12,7 @@ theme:
   favicon: img/favicon.ico
   palette:
     scheme: slate
-    primary: custom
+    primary: black
     accent: custom
   logo: img/logo.svg
   icon:
