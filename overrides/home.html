@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block tabs %}
+  {{ super() }}
+
+  <style>
+
+      :root {
+          --lxm-primary-color: #fefefe;
+      }
+
+      /* Hide main content for now */
+      .md-content {
+          display: none;
+      }
+      /* Hide table of contents and navigation */
+      @media screen and (min-width: 60em) {
+          .md-sidebar--secondary, .md-sidebar--primary {
+              display: none;
+          }
+      }
+
+      body {
+          background-color: var(--md-primary-fg-color);
+      }
+
+      div.lxm-home-center {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+      }
+
+      div.lxm-home-text-main {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          max-width: 20%;
+          color: var(--lxm-primary-color)
+      }
+
+      div.lxm-home-text-main h1 {
+          font-size: 4em;
+          font-weight: 900;
+          text-transform: uppercase;
+      }
+      div.lxm-home-text-main p {
+          font-size: 2em;
+          font-weight: 300;
+      }
+
+  </style>
+  <section class="lxm-home-content">
+    <div class="lxm-home-center">
+      <img src="img/logo.svg" alt="PYCO logo">
+      <div class="lxm-home-text-main">
+        <h1>Software for creatives.</h1>
+        <p>
+          We are making software helping creatives in their craft.
+        </p>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
+
+{#remove content#}
+{% block content %}{% endblock %}

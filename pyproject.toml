@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyco-apps-github-io"
+version = "0.1.0"
+description = ""
+authors = ["Liam Collod <lcollod@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pyco_apps"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "*"
+pytest = "7.4.*"
+coverage = "7.4.*"
+mkdocs = "1.5.3"
+mkdocs-material = "9.5.*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
