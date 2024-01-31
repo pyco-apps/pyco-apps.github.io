@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "pyco-apps-github-io"
 version = "0.1.0"
-description = ""
-authors = ["Liam Collod <lcollod@gmail.com>"]
+description = "Company website for Pyco."
+authors = ["Liam Collod <monsieurlixm@gmail.com>"]
 readme = "README.md"
-packages = [{include = "pyco_apps"}]
+repository = "https://github.com/pyco-apps/pyco-apps.github.io"
+keywords = ["documentation", "vfx", "user"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
