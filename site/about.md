@@ -17,5 +17,5 @@ is digital art-making.
 
 # Contact
 
-- [Email](<pyco.liam.business@gmail.com>)
+- [Email](mailto:pyco.liam.business@gmail.com)
 - [Discord](https://discord.gg/47ySGqMEAj)
