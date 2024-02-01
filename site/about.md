@@ -13,3 +13,8 @@ the consequence of not really crafting pictures anymore.
 software with others so that maybe, those could actually improve
 their craft and still find pleasure in the ever-evolving realm that
 is digital art-making.
+
+# Contact
+
+- [Email](<pyco.liam.business@gmail.com>)
+- [Discord](https://discord.gg/47ySGqMEAj)
