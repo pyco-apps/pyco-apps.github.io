@@ -46,6 +46,9 @@ extra:
     - icon: simple/gumroad
       link: https://app.gumroad.com/pyco
       name: Gumroad Store
+    - icon: simple/discord
+      link: https://discord.gg/47ySGqMEAj
+      name: Discord Server
 
 extra_css:
   - extra.css
