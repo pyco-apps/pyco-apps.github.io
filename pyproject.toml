@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyco-apps-github-io"
-version = "0.1.0"
+version = "1.0.0"
 description = "Company website for Pyco."
 authors = ["Liam Collod <monsieurlixm@gmail.com>"]
 readme = "README.md"
