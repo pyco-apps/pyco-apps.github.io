@@ -14,6 +14,7 @@ pytest = "7.4.*"
 coverage = "7.4.*"
 mkdocs = "1.5.3"
 mkdocs-material = "9.5.*"
+mkdocs-redirects = "1.2.*"
 
 [build-system]
 requires = ["poetry-core"]
