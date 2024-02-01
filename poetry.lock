@@ -495,6 +495,24 @@ files = [
 ]
 
 [[package]]
+name = "mkdocs-redirects"
+version = "1.2.1"
+description = "A MkDocs plugin for dynamic page redirects to prevent broken links."
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "mkdocs-redirects-1.2.1.tar.gz", hash = "sha256:9420066d70e2a6bb357adf86e67023dcdca1857f97f07c7fe450f8f1fb42f861"},
+]
+
+[package.dependencies]
+mkdocs = ">=1.1.1"
+
+[package.extras]
+dev = ["autoflake", "black", "isort", "pytest", "twine (>=1.13.0)"]
+release = ["twine (>=1.13.0)"]
+test = ["autoflake", "black", "isort", "pytest"]
+
+[[package]]
 name = "mypy-extensions"
 version = "1.0.0"
 description = "Type system extensions for programs checked with the mypy type checker."
@@ -924,4 +942,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "a9e742ab490058f5b56d6a13c4ca8a718ca05854fba6362b02eb157f2a7979c3"
+content-hash = "bbddce63840b331644cca6874544f9e36c6f74a5d9ca6c6b63f11fbf1f01d3c4"

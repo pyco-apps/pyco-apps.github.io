@@ -13,33 +13,71 @@
       .md-content {
           display: none;
       }
-      /* Hide table of contents and navigation */
+      [data-md-color-scheme=slate] {
+          .md-header {
+              background-color: transparent !important;
+          }
+
+          .md-tabs {
+              background-color: transparent !important;
+          }
+      }
+      /* Hide table of contents */
       @media screen and (min-width: 60em) {
-          .md-sidebar--secondary, .md-sidebar--primary {
+          .md-sidebar--secondary {
+              display: none;
+          }
+      }
+      /* Hide navigation */
+      @media screen and (min-width: 76.25em) {
+          .md-sidebar--primary {
               display: none;
           }
       }
 
-      body {
-          background-color: var(--md-primary-fg-color);
+      .noise-bg:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0.05;
+          filter: contrast(250%);
+          background-color: black;
+          background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 251 251' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter' %3E%3CfeTurbulence type='fractalNoise' baseFrequency='2' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+          z-index: -1;
       }
 
       div.lxm-home-center {
           display: flex;
           flex-direction: row;
           justify-content: center;
+          gap: 15px;
+      }
+
+      div.lxm-home-center img {
+          transition: all 1s;
+      }
+      div.lxm-home-center img:hover {
+          filter: drop-shadow(0px 0px 50px rgba(33, 231, 133, 0.37));
+      }
+
+      div.lxm-home-text-main h1, div.lxm-home-text-main p {
+          transition: all 1s;
+      }
+      div.lxm-home-text-main h1:hover, div.lxm-home-text-main p:hover {
+          filter: drop-shadow(0px 0px 50px currentColor);
       }
 
       div.lxm-home-text-main {
           display: flex;
           flex-direction: column;
           justify-content: center;
-          max-width: 20%;
-          color: var(--lxm-primary-color)
+          color: var(--md-primary-bg-color);
       }
-
       div.lxm-home-text-main h1 {
-          font-size: 4em;
+          font-size: 6em;
           font-weight: 900;
           text-transform: uppercase;
       }
@@ -48,18 +86,58 @@
           font-weight: 300;
       }
 
+      div.lxm-bg-square1 {
+          position: absolute;
+          opacity: 0.5;
+          border: 1.5px solid currentColor;
+          width: 200px;
+          height: 200px;
+          margin-left: 23px;
+          margin-top: 5px;
+      }
+
+      @media screen and (max-width: 60em) {
+          div.lxm-home-center img {
+              width: 150px;
+          }
+
+          div.lxm-home-center {
+              flex-direction: column;
+              align-items: left;
+              margin: 50px;
+          }
+
+          div.lxm-home-text-main h1 {
+              font-size: 3em;
+          }
+
+          div.lxm-home-text-main p {
+              font-size: 1.5em;
+          }
+
+          div.lxm-bg-square1 {
+              width: 100px;
+              height: 100px;
+              margin-left: -15px;
+              margin-top: -15px;
+          }
+      }
+
   </style>
-  <section class="lxm-home-content">
-    <div class="lxm-home-center">
-      <img src="img/logo.svg" alt="PYCO logo">
-      <div class="lxm-home-text-main">
-        <h1>Software for creatives.</h1>
-        <p>
-          We are making software helping creatives in their craft.
-        </p>
+  <div class="noise-bg">
+    <section class="lxm-home-content">
+      <div class="lxm-home-center">
+        <img src="img/logo-nobg.svg" alt="PYCO logo">
+        <div class="lxm-home-text-main">
+          <div class="lxm-bg-square1"></div>
+          <h1>Software<br>for<br>creatives.</h1>
+          <p>
+            Writing code instead of making art, so you don't have to.
+          </p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
 {% endblock %}
 

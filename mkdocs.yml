@@ -2,6 +2,7 @@ site_name: PYCO
 edit_uri: edit/main/docs/
 site_author: Liam Collod
 site_description: Software for CGI and creatives.
+copyright: Copyright &copy; 2024 Liam Collod
 
 docs_dir: 'site'
 site_dir: 'build'
@@ -11,10 +12,21 @@ theme:
   custom_dir: overrides
   favicon: img/favicon.ico
   palette:
-    scheme: slate
-    primary: custom
-    accent: custom
-  logo: img/logo.svg
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: 'white'
+      accent: 'custom'
+      toggle:
+        icon: octicons/moon-16
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: 'black'
+      accent: 'custom'
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  logo: img/logo-nobg.svg
   icon:
     repo: fontawesome/brands/github
   features:
@@ -31,6 +43,12 @@ extra:
     - icon: fontawesome/brands/mastodon
       link: https://mastodon.gamedev.place/@liamcollod
       name: Pyco developer personal Mastodon account
+    - icon: simple/gumroad
+      link: https://app.gumroad.com/pyco
+      name: Gumroad Store
+    - icon: simple/discord
+      link: https://discord.gg/47ySGqMEAj
+      name: Discord Server
 
 extra_css:
   - extra.css
@@ -38,6 +56,9 @@ extra_css:
 plugins:
   - search
   - privacy
+  - redirects:
+      redirect_maps:
+        'store.md': 'https://app.gumroad.com/pyco'
 
 markdown_extensions:
   - abbr

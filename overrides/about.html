@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+
+{% block tabs %}
+  {{ super() }}
+
+  <style>
+      /* Hide main content for now */
+      .md-content {
+          display: none;
+      }
+      [data-md-color-scheme=slate] {
+          .md-header {
+              background-color: transparent !important;
+          }
+
+          .md-tabs {
+              background-color: transparent !important;
+          }
+      }
+      /* Hide table of contents */
+      @media screen and (min-width: 60em) {
+          .md-sidebar--secondary {
+              display: none;
+          }
+      }
+      /* Hide navigation */
+      @media screen and (min-width: 76.25em) {
+          .md-sidebar--primary {
+              display: none;
+          }
+      }
+
+      div.lxm-home-center {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 15px;
+      }
+      div.lxm-home-text-main {
+          margin: 50px;
+          max-width: 40%;
+      }
+      div.lxm-home-text-main p {
+          font-size: 2em;
+          font-weight: 300;
+      }
+      div.lxm-home-text-main h1 {
+          font-size: 6em;
+          font-weight: 900;
+      }
+
+      div.lxm-contact-block {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          align-items: center;
+          gap: 30px;
+          border: 1px solid rgb(35, 35, 35);
+          border-radius: 10px;
+          padding: 15px;
+          background: linear-gradient(120deg, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0) 85%);
+          box-shadow: 5px 5px 50px black;
+      }
+      [data-md-color-scheme=default] {
+          .lxm-contact-block {
+              border-color: rgb(229, 229, 229);
+              background: linear-gradient(120deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.08) 85%);
+              box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.1);
+          }
+
+          .lxm-contact-item {
+              opacity: 0.6;
+          }
+      }
+      div.lxm-contact-block div.lxm-contact-item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 15px;
+      }
+      div.lxm-contact-block div.lxm-contact-item p {
+          margin: unset;
+      }
+      div.lxm-contact-block a:hover {
+          transform: scale(110%);
+          transition: all 250ms;
+      }
+      div.lxm-contact-block svg {
+          width: 50px;
+          fill: currentColor;
+          display: block;
+      }
+
+      @media screen and (max-width: 60em) {
+          div.lxm-home-text-main {
+              max-width: 60%;
+          }
+
+          div.lxm-home-text-main p {
+              font-size: 1.5em;
+          }
+
+          div.lxm-contact-block {
+              flex-direction: column;
+          }
+      }
+
+  </style>
+  <section class="lxm-home-content">
+    <div class="lxm-home-center">
+      <div class="lxm-home-text-main">
+        <!-- THINK to modify about.md too !-->
+        <p>
+          <b>PYCO</b> is the company facade for Liam Collod. A French artist
+          making pictures for 9 years now. He decided a few years ago to learn
+          the dark art of building software in the hope that it could improve
+          his craft, but has instead found himself fully absorbed in it with
+          the consequence of not really crafting pictures anymore.
+          <br> He hopes to justify this hazardous life path by sharing his
+          software with others so that maybe, those could actually improve
+          their craft and still find pleasure in the ever-evolving realm that
+          is digital art-making.
+        </p>
+        <h1>Contact</h1>
+        <div class="lxm-contact-block">
+          <div class="lxm-contact-item">
+            <p>Email</p>
+            <a href="mailto:pyco.liam.business@gmail.com"
+               class="lxm-contact-item">
+              {% include ".icons/material/gmail.svg" %}
+            </a>
+          </div>
+          <div class="lxm-contact-item">
+            <p>Discord</p>
+            <a href="https://discord.gg/47ySGqMEAj" class="lxm-contact-item">
+              {% include ".icons/simple/discord.svg" %}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
+
+{#remove content#}
+{% block content %}{% endblock %}

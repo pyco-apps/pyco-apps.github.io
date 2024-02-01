@@ -5,4 +5,4 @@ template: home.html
 
 # Software for creatives
 
-We are making software helping creatives in their craft.
+Writing code instead of making art, so you don't have to.
