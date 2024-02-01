@@ -4,12 +4,25 @@
     --md-default-bg-color: #0e0e0e;
     /* same value as default */
     --md-code-bg-color: hsla(var(--md-hue), 15%, 14%, 1);
-    --md-tabbed-bg-color: hsla(var(--md-hue), 15%, 10%, 1)
+    --md-tabbed-bg-color: hsla(var(--md-hue), 15%, 10%, 1);
+    --md-footer-bg-color: hsla(var(--md-hue), 15%, 2%, 0.87);
+    --md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 0%, 1);
+
+    .md-header {
+        background-color: var(--md-footer-bg-color);
+    }
+    @media screen and (min-width: 76.25em) {
+        .md-tabs {
+            background-color: var(--md-footer-bg-color);
+        }
+    }
+
+
 }
 [data-md-color-scheme=default] {
     --md-accent-fg-color: #0bd774;
     --md-accent-fg-color--transparent: rgba(33, 231, 133, 0.5);
-    --md-tabbed-bg-color: hsla(var(--md-hue), 15%, 98%, 1)
+    --md-tabbed-bg-color: hsla(var(--md-hue), 15%, 98%, 1);
 }
 
 .md-typeset {
