@@ -13,6 +13,12 @@
       .md-content {
           display: none;
       }
+      .md-header {
+          background-color: transparent !important;
+      }
+      .md-tabs {
+          background-color: transparent !important;
+      }
       /* Hide table of contents and navigation */
       @media screen and (min-width: 60em) {
           .md-sidebar--secondary, .md-sidebar--primary {
@@ -21,25 +27,24 @@
       }
 
       body {
-          background-color: var(--md-primary-fg-color);
+          background-color: #0E0E0E;
       }
 
       div.lxm-home-center {
           display: flex;
           flex-direction: row;
           justify-content: center;
+          gap: 15px;
       }
-
       div.lxm-home-text-main {
           display: flex;
           flex-direction: column;
           justify-content: center;
-          max-width: 20%;
-          color: var(--lxm-primary-color)
+          color: var(--lxm-primary-color);
       }
 
       div.lxm-home-text-main h1 {
-          font-size: 4em;
+          font-size: 6em;
           font-weight: 900;
           text-transform: uppercase;
       }
@@ -48,14 +53,34 @@
           font-weight: 300;
       }
 
+      @media screen and (max-width: 60em) {
+          div.lxm-home-center img {
+              width: 150px;
+          }
+
+          div.lxm-home-center {
+              flex-direction: column;
+              align-items: left;
+              margin: 50px;
+          }
+
+          div.lxm-home-text-main h1 {
+              font-size: 3em;
+          }
+
+          div.lxm-home-text-main p {
+              font-size: 1.5em;
+          }
+      }
+
   </style>
   <section class="lxm-home-content">
     <div class="lxm-home-center">
       <img src="img/logo.svg" alt="PYCO logo">
       <div class="lxm-home-text-main">
-        <h1>Software for creatives.</h1>
+        <h1>Software<br>for<br>creatives.</h1>
         <p>
-          We are making software helping creatives in their craft.
+          We are making software to help creatives in their craft.
         </p>
       </div>
     </div>
