@@ -66,16 +66,15 @@ defined by the License.
 
 ### a. Personal
 
-This license grants the utilisation of the product on multiple personal
-machines
-as long they all are uniquely used by the user, for Non-Commercial purposes
-only.
+This license grants the utilisation of the software on multiple personal
+machines as long they all are uniquely used by the user, for Non-Commercial
+purposes only.
 
-The user may not (a) share (b) distribute any of the content of the product,
+The user may not (a) share (b) distribute any of the content of the software,
 whether it has been modified or not, without an explicit agreement from PYCO.
 
-The user may modify and adapt the content of the product for himself as long as
-the above rules are respected.
+The user may modify and adapt the content of the software for himself as long
+as the above rules are respected.
 
 ### b. Personal Creative Commons
 
@@ -105,10 +104,10 @@ This license grants the utilisation of the software under the following term:
 This license grants the utilisation of the software on multiple personal
 machines (1.d.) to a single individual, "the user", for Commercial purposes.
 
-The user may not (a) share (b) distribute any of the content of the product,
+The user may not (a) share (b) distribute any of the content of the software,
 whether it has been modified or not, without an explicit agreement from PYCO.
 
-The user may modify and adapt the content of the product for himself as long as
+The user may modify and adapt the content of the software for himself as long as
 the above rules are respected.
 
 ### d. Indie
@@ -117,7 +116,7 @@ This license grants the utilisation of the software to an entity, "the user",
 whose gross revenues are strictly inferior to €250,000 a year.
 
 The user may not (a) share (b) distribute any of the content of
-the product, whether it has been modified or not, to members external to the
+the software, whether it has been modified or not, to members external to the
 entity without an explicit agreement from PYCO.
 
 ### e. Studio
@@ -126,7 +125,7 @@ This license grants the utilisation of the software to an entity, "the user",
 whose gross revenues are superior or equal to €250,000 a year.
 
 The user may not (a) share (b) distribute any of the content of
-the product, whether it has been modified or not, to members external to the
+the software, whether it has been modified or not, to members external to the
 entity without an explicit agreement from PYCO.
 
 ## 4. Additional Restrictions
@@ -207,4 +206,4 @@ the acquired software.
 
 For any question or concern about this agreement please reach out to :
 
-> Liam Collod: <PYCO.liam.business@gmail.com>
+> Liam Collod: <pyco.liam.business@gmail.com>
