@@ -13,11 +13,14 @@
       .md-content {
           display: none;
       }
-      .md-header {
-          background-color: transparent !important;
-      }
-      .md-tabs {
-          background-color: transparent !important;
+      [data-md-color-scheme=slate] {
+          .md-header {
+              background-color: transparent !important;
+          }
+
+          .md-tabs {
+              background-color: transparent !important;
+          }
       }
       /* Hide table of contents and navigation */
       @media screen and (min-width: 60em) {
