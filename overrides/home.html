@@ -22,9 +22,15 @@
               background-color: transparent !important;
           }
       }
-      /* Hide table of contents and navigation */
+      /* Hide table of contents */
       @media screen and (min-width: 60em) {
-          .md-sidebar--secondary, .md-sidebar--primary {
+          .md-sidebar--secondary {
+              display: none;
+          }
+      }
+      /* Hide navigation */
+      @media screen and (min-width: 76.25em) {
+          .md-sidebar--primary {
               display: none;
           }
       }
