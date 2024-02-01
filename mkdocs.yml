@@ -1,8 +1,10 @@
 site_name: PYCO
-edit_uri: edit/main/docs/
+site_url: https://pyco-apps.github.io/
 site_author: Liam Collod
 site_description: Software for CGI and creatives.
 copyright: Copyright &copy; 2024 Liam Collod
+
+meta_image: img/social-card.png
 
 docs_dir: 'site'
 site_dir: 'build'

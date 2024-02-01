@@ -1,5 +1,6 @@
 ---
 template: about.html
+description: About the company ...
 ---
 
 # About

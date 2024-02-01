@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {% if page and page.meta and page.meta.title %}
+    <meta property="og:title" content="{{ page.meta.title }}"/>
+    <meta property="twitter:title" content="{{ page.meta.title }}"/>
+  {% endif %}
+  {% if page and page.meta and page.meta.image %}
+    <meta property="og:image" content="{{ page.meta.image | url }}"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="twitter:card" content="summary_large"/>
+    <meta property="twitter:image" content="{{ page.meta.image | url }}"/>
+  {% elif config and config.meta_image %}
+    <meta property="og:image" content="{{ config.meta_image | url }}"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="twitter:card" content="summary_large"/>
+    <meta property="twitter:image" content="{{ config.meta_image | url }}"/>
+  {% endif %}
+{% endblock %}

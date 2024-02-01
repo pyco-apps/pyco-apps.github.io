@@ -1,3 +1,6 @@
+---
+description: End-User License Agreement for PYCO software.
+---
 # PYCO-Software-EULA
 
 PLEASE READ CAREFULLY BEFORE PROCESSING A PURCHASE OR DOWNLOAD AS THIS DOCUMENT

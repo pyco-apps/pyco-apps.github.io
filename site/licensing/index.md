@@ -1,3 +1,8 @@
+---
+title: Licensing Overview
+description: Available licenses for our software.
+---
+
 # Overview
 
 Licenses the PYCO software are bound to.
