@@ -8,7 +8,7 @@ you, the user, either an individual or a single entity and (b) PYCO("us", "we",
 "our") the provider, that will dictate your use of the software provided.
 
 If you purchase, download and, or use any of the software belonging to PYCO
-which mention being subject to this EULA, you automatically accept and agree to
+which mentions being subject to this EULA, you automatically accept and agree to
 be bound by ALL the terms of the bottom agreement.
 
 ## 1. Definitions
@@ -19,7 +19,7 @@ operation of a computer or similar electronic device, including in the form of:
 - object code (machine-readable)
 - source code (human-readable).
 
-Where "set of instructions" would correspond, but not limited to: files,
+Where "set of instructions" would correspond, but not be limited to files,
 folders, images, documents.
 
 b. **Non-Commercial** means activities undertaken by individuals or entities on
@@ -28,21 +28,21 @@ be used in connection with any bid for a commercial contract, development of a
 commercial product, or any other activity that is expected, or has the
 potential, to be profitmaking.
 
-c. **PYCO** is the French society registred under SIRET 897 544 839 00011 and
+c. **PYCO** is the French society registered under SIRET 897 544 839 00011 and
 represented by Liam Collod.
 
-d. **personal machine** represent the computer hardware the software is being
+d. **personal machine** represents the computer hardware the software is being
 run on, which is being used by a single user.
 
 e. **"you" or "the user"** designate the person or the entity acquiring
-and using the software. In the event that the user designate an entity then:
+and using the software. In the event that the user designates an entity then:
 
 (i) the rights granted under this Agreement are granted to that entity and its
 members;
 
 (ii) you represent and warrant that the individual completing and accepting
 this Agreement is an authorized representative of the entity and has the
-authority to legally bind that you to the Agreement;
+authority to legally bind you to the Agreement;
 
 (iii) to the extent that one or more of your members are granted any
 rights in the software, you will ensure that those members comply with this
@@ -53,16 +53,16 @@ Agreement by any member of your entity.
 
 PYCO hereby grants You a worldwide, non-sublicensable, non-exclusive,
 irrevocable license to download and use the software provided by PYCO under the
-conditions determined by the following licenses models which have been
+conditions determined by the following license models which have been
 adopted during the purchase or selection of the software.
 PYCO is responsible for proposing a clear choice if any, or a clear statement
-of the Licenses Models (3.) available for the software.
+of the License Models (3.) available for the software.
 
 The License become effective from the exact time a software licensed under this
-EULA is downloaded or bought, and bounds you to strictly respect the term
+EULA is downloaded or bought and bounds you to strictly respect the term
 defined by the License.
 
-## 3. Licenses Models
+## 3. License Models
 
 ### a. Personal
 
@@ -86,7 +86,7 @@ visit [http://creativecommons.org/licenses/by-nc-sa/4.0/](http://creativecommons
 or send a letter to _Creative Commons, PO Box 1866, Mountain View, CA 94042,
 USA_.
 
-This license grants the utilisation of the software under the following term:
+This license grants the utilisation of the software under the following terms:
 
 - **Attribution** — You must give appropriate credit, provide a link to the
   license, and indicate if changes were made. You may do so in any reasonable
@@ -122,7 +122,7 @@ entity without an explicit agreement from PYCO.
 ### e. Studio
 
 This license grants the utilisation of the software to an entity, "the user",
-whose gross revenues are superior or equal to €250,000 a year.
+whose gross revenues are superior to or equal to €250,000 a year.
 
 The user may not (a) share (b) distribute any of the content of
 the software, whether it has been modified or not, to members external to the
@@ -151,10 +151,10 @@ b. Updating and maintaining the software.
 ## 6. Term and Termination
 
 This Agreement is effective unless terminated. PYCO may terminate this
-agreement without notice if any term of this agreement is break or if PYCO
+agreement without notice if any term of this agreement is broken or if PYCO
 estimate the software was not acquired through a PYCO distribution platform.
 
-Upon any termination you must consent to destroy any software belonging to PYCO
+Upon any termination, you must consent to destroy any software belonging to PYCO
 in your possession, including potential copies, modified or similar to the
 original.
 
@@ -183,10 +183,10 @@ OR EXPENSES THAT CONSTITUTE INCIDENTAL, CONSEQUENTIAL, SPECIAL, PUNITIVE,
 EXEMPLARY, MULTIPLE OR INDIRECT DAMAGES, EVEN IF WE HAVE BEEN ADVISED OF THE
 POSSIBILITY OF SUCH LOSSES, DAMAGES, CLAIMS OR EXPENSES.
 
-You understand and waive any claims related to that the provided software might
+You understand and waive any claims related to the provided software might
 not be fully functional and might generate errors or loss of data. In such case
 you have the ability to contact PYCO, but which is not entitled in any form to
-answer or take in consideration the provided information.
+answer or take into consideration the provided information.
 
 ## 8. Legal Effect
 
@@ -196,10 +196,10 @@ laws of your country if the laws of your country do not permit it to do so.
 
 ## 9. Modification
 
-PYCO reserve all right to modify this EULA without any notice. In the case a
+PYCO reserves all right to modify this EULA without any notice. In the case a
 software was acquired under an older revision of this EULA, the new EULA
 revision will start to apply only at the instant it is made public. In case of
-litigation the user has to keep the original EULA revision included with
+litigation, the user has to keep the original EULA revision included with
 the acquired software.
 
 ## Contact
