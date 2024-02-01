@@ -4,6 +4,7 @@ site_author: Liam Collod
 site_description: Software for CGI and creatives.
 copyright: Copyright &copy; 2024 Liam Collod
 
+# custom key added in main.html
 meta_image: img/social-card.png
 
 docs_dir: 'site'
@@ -13,6 +14,10 @@ theme:
   name: material
   custom_dir: overrides
   favicon: img/favicon.ico
+  font:
+    # custom key added in main.html
+    extras:
+      - Urbanist
   palette:
     - media: '(prefers-color-scheme: light)'
       scheme: default

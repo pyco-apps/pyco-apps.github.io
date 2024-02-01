@@ -17,3 +17,17 @@
     <meta property="twitter:image" content="{{ config.meta_image | url }}"/>
   {% endif %}
 {% endblock %}
+
+{% block fonts %}
+  {{ super() }}
+  {% if config.theme.font.extras %}
+      {% for font_name in config.theme.font.extras %}
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family={{
+            font_name | replace(' ', '+') + ':ital,wght@0,100..900;1,100..900'
+          }}&display=fallback"
+        />
+      {% endfor %}
+  {% endif %}
+{% endblock %}
