@@ -17,7 +17,7 @@ theme:
       primary: 'white'
       accent: 'custom'
       toggle:
-        icon: material/brightness-7
+        icon: octicons/moon-16
         name: Switch to dark mode
     - media: '(prefers-color-scheme: dark)'
       scheme: slate
