@@ -43,6 +43,9 @@ extra:
     - icon: fontawesome/brands/mastodon
       link: https://mastodon.gamedev.place/@liamcollod
       name: Pyco developer personal Mastodon account
+    - icon: simple/gumroad
+      link: https://app.gumroad.com/pyco
+      name: Gumroad Store
 
 extra_css:
   - extra.css
