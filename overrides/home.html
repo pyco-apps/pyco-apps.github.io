@@ -52,6 +52,15 @@
           font-weight: 300;
       }
 
+      div.lxm-bg-square1 {
+          position: absolute;
+          border: 1.5px solid rgba(255, 255, 255, 0.5);
+          width: 200px;
+          height: 200px;
+          margin-left: 23px;
+          margin-top: 5px;
+      }
+
       @media screen and (max-width: 60em) {
           div.lxm-home-center img {
               width: 150px;
@@ -70,6 +79,13 @@
           div.lxm-home-text-main p {
               font-size: 1.5em;
           }
+
+          div.lxm-bg-square1 {
+              width: 100px;
+              height: 100px;
+              margin-left: -15px;
+              margin-top: -15px;
+          }
       }
 
   </style>
@@ -77,6 +93,7 @@
     <div class="lxm-home-center">
       <img src="img/logo-nobg.svg" alt="PYCO logo">
       <div class="lxm-home-text-main">
+        <div class="lxm-bg-square1"></div>
         <h1>Software<br>for<br>creatives.</h1>
         <p>
           Writing code instead of making art, so you don't have to.
