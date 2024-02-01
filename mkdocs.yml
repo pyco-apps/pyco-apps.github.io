@@ -26,7 +26,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  logo: img/logo.svg
+  logo: img/logo-nobg.svg
   icon:
     repo: fontawesome/brands/github
   features:
