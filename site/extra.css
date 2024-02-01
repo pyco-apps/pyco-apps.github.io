@@ -4,7 +4,7 @@
     --md-default-bg-color: #0e0e0e;
     /* same value as default */
     --md-code-bg-color: hsla(var(--md-hue), 15%, 14%, 1);
-    --md-tabbed-bg-color: hsla(var(--md-hue), 15%, 10%, 1);
+    --md-tabbed-bg-color: hsla(var(--md-hue), 5%, 9%, 1);
     --md-footer-bg-color: hsla(var(--md-hue), 15%, 2%, 0.87);
     --md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 0%, 1);
 
