@@ -1,3 +1,7 @@
+---
+meta_title: 'Image Colorspace Converter - Developer'
+description: 'Documentation for Image Colorspace Converter software.'
+---
 # Developer
 
 !!! warning

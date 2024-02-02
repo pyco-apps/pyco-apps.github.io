@@ -1,3 +1,8 @@
+---
+meta_title: 'Image Colorspace Converter - Documentation'
+meta_image: './docs/standalone-colorspace-converter/img/overview.jpg'
+description: 'Documentation for Image Colorspace Converter software.'
+---
 # Home
 
 **Image Colorspace Converter**

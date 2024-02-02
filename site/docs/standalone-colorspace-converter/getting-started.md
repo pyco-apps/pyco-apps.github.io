@@ -1,3 +1,7 @@
+---
+meta_title: 'Image Colorspace Converter - Getting Started'
+description: 'Documentation for Image Colorspace Converter software.'
+---
 # Getting Started
 
 ## Installation
