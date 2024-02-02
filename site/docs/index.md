@@ -18,8 +18,9 @@ In this section you can find the documentation for all the PYCO software availab
 ## Deprecated Software
 
 
-| name                                                       | type           | description                 |
-|------------------------------------------------------------|----------------|-----------------------------|
-| [Pointer's Gamut Checker CLI](pointers-gamut-cli/index.md) | standalone CLI | image colorspace inspection |
+| name                                                        | type           | description                               |
+|-------------------------------------------------------------|----------------|-------------------------------------------|
+| [Pointer's Gamut Checker CLI](pointers-gamut-cli/index.md)  | standalone CLI | image colorspace inspection               |
+| [Katana - Texture Monitor](katana-texture-monitor/index.md) | Katana Plugin  | browse textures in current katana project |
 
 
