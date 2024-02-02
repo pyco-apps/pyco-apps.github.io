@@ -42,6 +42,18 @@ theme:
     - content.code.copy
     - navigation.tabs
 
+nav:
+  - Home: index.md
+  - Store: store.md
+  - Documentation:
+    - Overview: docs/index.md
+    - 'Image Colorspace Converter':
+      - docs/standalone-colorspace-converter/index.md
+  - Licensing:
+    - licensing/index.md
+    - licensing/eula.md
+  - About: about.md
+
 extra:
   social:
     - icon: fontawesome/brands/github
