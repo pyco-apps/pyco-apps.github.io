@@ -50,6 +50,7 @@ nav:
     - 'Image Colorspace Converter':
       - docs/standalone-colorspace-converter/index.md
       - docs/standalone-colorspace-converter/getting-started.md
+      - docs/standalone-colorspace-converter/features.md
   - Licensing:
     - licensing/index.md
     - licensing/eula.md
