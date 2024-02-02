@@ -49,6 +49,7 @@ nav:
     - Overview: docs/index.md
     - 'Image Colorspace Converter':
       - docs/standalone-colorspace-converter/index.md
+      - docs/standalone-colorspace-converter/getting-started.md
   - Licensing:
     - licensing/index.md
     - licensing/eula.md
@@ -93,3 +94,6 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.keys
+  - toc:
+      permalink: true
