@@ -51,6 +51,7 @@ nav:
       - docs/standalone-colorspace-converter/index.md
       - docs/standalone-colorspace-converter/getting-started.md
       - docs/standalone-colorspace-converter/features.md
+      - docs/standalone-colorspace-converter/developer.md
   - Licensing:
     - licensing/index.md
     - licensing/eula.md
