@@ -1,5 +1,7 @@
 ---
 title: Pointer's Gamut Checker CLI
+search:
+    exclude: true
 ---
 
 [`home`](index.md) [`getting-started`](getting-started.md) [`features`](features.md)

@@ -1,3 +1,8 @@
+---
+search:
+    exclude: true
+---
+
 [`index`](index.md) [`getting-started`](getting-started.md) [`features`](features.md) [`developer`](developer.md)
 
 # Developer
