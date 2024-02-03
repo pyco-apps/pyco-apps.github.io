@@ -59,6 +59,10 @@ nav:
     - licensing/eula.md
   - About: about.md
 
+not_in_nav: |
+  docs/pointers-gamut-cli/*
+  docs/katana-texture-monitor/*
+
 extra:
   social:
     - icon: fontawesome/brands/github
