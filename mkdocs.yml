@@ -4,9 +4,6 @@ site_author: Liam Collod
 site_description: Software for CGI and creatives.
 copyright: Copyright &copy; 2024 Liam Collod
 
-# custom key added in main.html
-meta_image: img/social-card.png
-
 docs_dir: 'site'
 site_dir: 'build'
 
@@ -64,6 +61,10 @@ not_in_nav: |
   docs/katana-texture-monitor/*
 
 extra:
+  # custom key read in main.html
+  meta:
+    default:
+      image: img/social-card.png
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/pyco-apps
