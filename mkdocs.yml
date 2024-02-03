@@ -4,9 +4,6 @@ site_author: Liam Collod
 site_description: Software for CGI and creatives.
 copyright: Copyright &copy; 2024 Liam Collod
 
-# custom key added in main.html
-meta_image: img/social-card.png
-
 docs_dir: 'site'
 site_dir: 'build'
 
@@ -41,8 +38,33 @@ theme:
     - content.code.annotate
     - content.code.copy
     - navigation.tabs
+    - navigation.top
+
+nav:
+  - Home: index.md
+  - Store: store.md
+  - Documentation:
+    - Overview: docs/index.md
+    - 'Image Colorspace Converter':
+      - docs/standalone-colorspace-converter/index.md
+      - docs/standalone-colorspace-converter/getting-started.md
+      - docs/standalone-colorspace-converter/features.md
+      - docs/standalone-colorspace-converter/developer.md
+      - docs/standalone-colorspace-converter/linux.md
+  - Licensing:
+    - licensing/index.md
+    - licensing/eula.md
+  - About: about.md
+
+not_in_nav: |
+  docs/pointers-gamut-cli/*
+  docs/katana-texture-monitor/*
 
 extra:
+  # custom key read in main.html
+  meta:
+    default:
+      image: img/social-card.png
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/pyco-apps
@@ -81,3 +103,6 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.keys
+  - toc:
+      permalink: true

@@ -1,33 +1,52 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
-  {% if page and page.meta and page.meta.title %}
+  {% if page and page.meta and page.meta.meta_title %}
+    <meta property="og:title" content="{{ page.meta.meta_title }}"/>
+    <meta property="twitter:title" content="{{ page.meta.meta_title }}"/>
+  {% elif page and page.meta and page.meta.title %}
     <meta property="og:title" content="{{ page.meta.title }}"/>
     <meta property="twitter:title" content="{{ page.meta.title }}"/>
+  {% elif page and page.title %}
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="twitter:title" content="{{ page.title }}"/>
   {% endif %}
-  {% if page and page.meta and page.meta.image %}
-    <meta property="og:image" content="{{ page.meta.image | url }}"/>
+  {% if page and page.meta and page.meta.meta_description %}
+    <meta property="og:description"
+          content="{{ page.meta.meta_description }}"/>
+    <meta property="twitter:description"
+          content="{{ page.meta.meta_description }}"/>
+  {% elif page and page.meta and page.meta.description %}
+    <meta property="og:description"
+          content="{{ page.meta.description }}"/>
+    <meta property="twitter:description"
+          content="{{ page.meta.description }}"/>
+  {% endif %}
+  {% if page and page.meta and page.meta.meta_image %}
+    <meta property="og:image"
+          content="{{ config.site_url + page.url + (page.meta.meta_image | url) }}"/>
     <meta property="og:image:type" content="image/png"/>
     <meta property="twitter:card" content="summary_large"/>
-    <meta property="twitter:image" content="{{ page.meta.image | url }}"/>
-  {% elif config and config.meta_image %}
-    <meta property="og:image" content="{{ config.meta_image | url }}"/>
+    <meta property="twitter:image"
+          content="{{ config.site_url + page.url + (page.meta.meta_image | url) }}"/>
+  {% elif config and config.extra and config.extra.meta %}
+    <meta property="og:image"
+          content="{{ config.site_url + config.extra.meta.default.image }}"/>
     <meta property="og:image:type" content="image/png"/>
     <meta property="twitter:card" content="summary_large"/>
-    <meta property="twitter:image" content="{{ config.meta_image | url }}"/>
+    <meta property="twitter:image"
+          content="{{ config.site_url + config.extra.meta.default.image }}"/>
   {% endif %}
 {% endblock %}
 
 {% block fonts %}
   {{ super() }}
   {% if config.theme.font.extras %}
-      {% for font_name in config.theme.font.extras %}
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family={{
-            font_name | replace(' ', '+') + ':ital,wght@0,100..900;1,100..900'
-          }}&display=fallback"
-        />
-      {% endfor %}
+    {% for font_name in config.theme.font.extras %}
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family={{ font_name | replace(' ', '+') + ':ital,wght@0,100..900;1,100..900' }}&display=fallback"
+      />
+    {% endfor %}
   {% endif %}
 {% endblock %}
