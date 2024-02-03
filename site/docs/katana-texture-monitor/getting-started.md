@@ -65,7 +65,7 @@ customize preferences for the tool.
 Please refer to the [feature section](features.md#settings.json-file) for all the details.
 
 If you would like to add a render-engine or modify the behaviour of an existing one please refer to 
-the [development section](development.md).
+the [developer section](developer.md).
 
 
 ## :material-star-circle-outline: Principe
