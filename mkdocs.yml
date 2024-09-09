@@ -39,26 +39,30 @@ theme:
     - content.code.copy
     - navigation.tabs
     - navigation.top
+    - navigation.indexes
 
 nav:
   - Home: index.md
-  - Store: store.md
-  - Documentation:
-    - Overview: docs/index.md
+#  - Store: store.md
+  - Software:
+    - software/index.md
     - 'Image Colorspace Converter':
-      - docs/standalone-colorspace-converter/index.md
-      - docs/standalone-colorspace-converter/getting-started.md
-      - docs/standalone-colorspace-converter/features.md
-      - docs/standalone-colorspace-converter/developer.md
-      - docs/standalone-colorspace-converter/linux.md
+        - software/standalone-colorspace-converter/index.md
+        - Documentation:
+          - software/standalone-colorspace-converter/docs/index.md
+          - software/standalone-colorspace-converter/docs/getting-started.md
+          - software/standalone-colorspace-converter/docs/features.md
+          - software/standalone-colorspace-converter/docs/developer.md
+          - software/standalone-colorspace-converter/docs/linux.md
   - Licensing:
     - licensing/index.md
     - licensing/eula.md
   - About: about.md
 
 not_in_nav: |
-  docs/pointers-gamut-cli/*
-  docs/katana-texture-monitor/*
+  store.md
+  software/pointers-gamut-cli/*
+  software/katana-texture-monitor/*
 
 extra:
   # custom key read in main.html
@@ -88,6 +92,21 @@ plugins:
   - redirects:
       redirect_maps:
         'store.md': 'https://app.gumroad.com/pyco'
+        'software/standalone-colorspace-converter/docs/index.md': 'software/standalone-colorspace-converter/docs/getting-started.md'
+        # backward-compat of structure before 09/09/24; we deleted docs/
+        'docs/index.md': 'software/index.md'
+        'docs/standalone-colorspace-converter/index.md': 'software/standalone-colorspace-converter/index.md'
+        'docs/standalone-colorspace-converter/developer.md': 'software/standalone-colorspace-converter/docs/developer.md'
+        'docs/standalone-colorspace-converter/features.md': 'software/standalone-colorspace-converter/docs/features.md'
+        'docs/standalone-colorspace-converter/getting-started.md': 'software/standalone-colorspace-converter/docs/getting-started.md'
+        'docs/standalone-colorspace-converter/linux.md': 'software/standalone-colorspace-converter/docs/linux.md'
+        'docs/pointers-gamut-cli/index.md': 'software/pointers-gamut-cli/index.md'
+        'docs/pointers-gamut-cli/features.md': 'software/pointers-gamut-cli/docs/features.md'
+        'docs/pointers-gamut-cli/getting-started.md': 'software/pointers-gamut-cli/docs/getting-started.md'
+        'docs/katana-texture-monitor/index.md': 'software/katana-texture-monitor/index.md'
+        'docs/katana-texture-monitor/developer.md': 'software/katana-texture-monitor/docs/developer.md'
+        'docs/katana-texture-monitor/features.md': 'software/katana-texture-monitor/docs/features.md'
+        'docs/katana-texture-monitor/getting-started.md': 'software/katana-texture-monitor/docs/features.md'
 
 markdown_extensions:
   - abbr

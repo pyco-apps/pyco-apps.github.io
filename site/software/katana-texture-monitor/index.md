@@ -3,8 +3,6 @@ search:
     exclude: true
 ---
 
-[`index`](index.md) [`getting-started`](getting-started.md) [`features`](features.md) [`developer`](developer.md)
-
 # Katana - Texture Monitor Tool
 
 !!! warning
@@ -14,7 +12,7 @@ search:
 Manage Textures easily in your Katana project.
 
 
-![Main](img/overview.png)
+![Main](docs/img/overview.png)
 
 !!! success "Get the app"
 

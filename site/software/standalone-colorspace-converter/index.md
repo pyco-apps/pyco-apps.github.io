@@ -1,15 +1,14 @@
 ---
-meta_title: 'Image Colorspace Converter - Documentation'
-meta_image: './docs/standalone-colorspace-converter/img/overview.jpg'
-description: 'Documentation for Image Colorspace Converter software.'
+meta_title: 'Image Colorspace Converter'
+meta_image: './software/standalone-colorspace-converter/docs/img/overview.jpg'
+description: 'Standalone application to convert colorspace and file formats for your images.'
 ---
-# Home
+# Image Colorspace Converter
 
-**Image Colorspace Converter**
+Standalone application to convert colorspace and file formats for your images 
+(textures, hdris, etc.).
 
-Quickly switch colorspaces and file format for your textures, hdris, ...
-
-![screenshot of the application on a windows desktop](img/overview.jpg)
+![screenshot of the application on a windows desktop](docs/img/overview.jpg)
 
 !!! success "Get the app"
     :material-download: Download the app here: <https://gum.co/pycocs>
