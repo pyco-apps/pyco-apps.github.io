@@ -5,6 +5,10 @@ description: 'Standalone application to convert colorspace and file formats for 
 ---
 # Image Colorspace Converter
 
+!!! warning
+
+    This software is deprecated and not maintained since 2020.
+
 Standalone application to convert colorspace and file formats for your images 
 (textures, hdris, etc.).
 
@@ -20,9 +24,6 @@ color space. It includes export options such as file format, bit-depth, etc.
 
 The app only works with 2d images. 
 
-!!! warning
-
-    No more development support is provided to this application.
 
 !!! bug "Known limitations & bugs"
 
