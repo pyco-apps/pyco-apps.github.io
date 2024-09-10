@@ -21,3 +21,11 @@ localorender.register_as_panel()
 
 You can open the panel in Nuke by clicking the :nuke-panel-icon: icon
 then `Windows` > `Custom` > `Localorender`
+
+# optional configuration
+
+You can also optionally add the following lines:
+```python
+localorender.configure_logging()
+``` 
+which should allow you to see logging message in the Script Editor.

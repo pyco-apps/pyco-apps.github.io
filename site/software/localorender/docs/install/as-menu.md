@@ -49,6 +49,12 @@ bar > `Render` > `Open LocaloRender`
 
 ## optional configuration
 
+You can also optionally add the following lines:
+```python
+localorender.configure_logging()
+``` 
+which should allow you to see logging message in the Script Editor.
+
 It's possible to set the configuration in which the tool open using the
 `uibuilder` argument:
 
