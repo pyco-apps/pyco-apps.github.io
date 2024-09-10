@@ -7,7 +7,7 @@ description: 'A Nuke tool to replace the native Render dialog for Write nodes.'
 
 # Documentation
 
-Documentation for version `0.5.0.rc` of the tool.
+Documentation for version `1.0.0` of the tool.
 
 [:material-hand-back-right: Usage](usage.md){.md-button}
 
