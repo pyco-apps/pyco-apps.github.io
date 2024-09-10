@@ -1,9 +1,19 @@
 ---
 title: Software Collection
 description: Collection of the software we made.
+hide:
+    navigation: true
+    toc: true
 ---
+<link rel="stylesheet" href="software.css">
 
 # Software
+
+<div class="grid cards" markdown>
+
+- [![localorender-thumbnail](localorender/imgs/localorender-thumbnail.jpg)](localorender)
+
+</div>
 
 ## Deprecated
 
