@@ -1,6 +1,6 @@
 ---
-title: Licensing Overview
-description: Available licenses for our software.
+title: licensing
+description: Overview of licenses for our software.
 ---
 
 # Overview

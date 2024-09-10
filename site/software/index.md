@@ -1,6 +1,6 @@
 ---
-title: Software Collection
-description: Collection of the software we made.
+title: software
+description: Library of software we made.
 hide:
     navigation: true
     toc: true
