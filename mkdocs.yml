@@ -41,28 +41,7 @@ theme:
     - navigation.top
     - navigation.indexes
 
-nav:
-  - Home: index.md
-#  - Store: store.md
-  - Software:
-    - software/index.md
-    - 'Image Colorspace Converter':
-        - software/standalone-colorspace-converter/index.md
-        - Documentation:
-          - software/standalone-colorspace-converter/docs/index.md
-          - software/standalone-colorspace-converter/docs/getting-started.md
-          - software/standalone-colorspace-converter/docs/features.md
-          - software/standalone-colorspace-converter/docs/developer.md
-          - software/standalone-colorspace-converter/docs/linux.md
-  - Licensing:
-    - licensing/index.md
-    - licensing/eula.md
-  - About: about.md
-
-not_in_nav: |
-  store.md
-  software/pointers-gamut-cli/*
-  software/katana-texture-monitor/*
+# nav is defined by the awesome-pages plugin which use .pages files.
 
 extra:
   # custom key read in main.html
@@ -89,6 +68,7 @@ extra_css:
 plugins:
   - search
   - privacy
+  - awesome-pages
   - redirects:
       redirect_maps:
         'store.md': 'https://app.gumroad.com/pyco'

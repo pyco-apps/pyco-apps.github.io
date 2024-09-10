@@ -6,6 +6,7 @@ authors = ["Liam Collod <monsieurlixm@gmail.com>"]
 readme = "README.md"
 repository = "https://github.com/pyco-apps/pyco-apps.github.io"
 keywords = ["documentation", "vfx", "user"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -15,6 +16,7 @@ coverage = "7.4.*"
 mkdocs = "1.5.3"
 mkdocs-material = "9.5.*"
 mkdocs-redirects = "1.2.*"
+mkdocs-awesome-pages-plugin = "2.9.*"
 
 [build-system]
 requires = ["poetry-core"]
