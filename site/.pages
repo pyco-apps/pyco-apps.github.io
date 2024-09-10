@@ -1,0 +1,6 @@
+nav:
+  - Home: index.md
+#  - Store: store.md
+  - Software: software
+  - Licensing: licensing
+  - About: about.md

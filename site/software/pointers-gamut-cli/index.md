@@ -2,9 +2,8 @@
 title: Pointer's Gamut Checker CLI
 search:
     exclude: true
+nav_exclude_for_others: true
 ---
-
-[`home`](index.md) [`getting-started`](getting-started.md) [`features`](features.md)
 
 # Pointer's Gamut Checker Command Line Interface
 
@@ -22,7 +21,7 @@ search:
 
 This is a command line tool, it implies no graphical interface to interact
 with.
-Please refer to [getting-started](getting-started.md) for having an explanation
+Please refer to [getting-started](docs/getting-started.md) for having an explanation
 of how to use it if you never used a CLI.
 
 The output result is an image of the same size as the original with red
@@ -33,7 +32,7 @@ Pointer's Gamut.
 
     :material-download: Download the app here: <https://gum.co/pgtool>
 
-![Example](img/file-explorer-preview.png)
+![Example](docs/img/file-explorer-preview.png)
 
 ## What is the Pointer's Gamut
 

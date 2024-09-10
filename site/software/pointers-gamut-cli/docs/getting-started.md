@@ -3,7 +3,6 @@ meta_title: Pointer's Gamut Checker CLI - Getting Started
 search:
     exclude: true
 ---
-[`home`](index.md) [`getting-started`](getting-started.md) [`features`](features.md)
 
 # Getting Started
 

@@ -4,8 +4,6 @@ search:
     exclude: true
 ---
 
-[`home`](index.md) [`getting-started`](getting-started.md) [`features`](features.md)
-
 # Features
 
 Structure:

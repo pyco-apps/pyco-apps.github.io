@@ -1,15 +1,18 @@
 ---
-meta_title: 'Image Colorspace Converter - Documentation'
-meta_image: './docs/standalone-colorspace-converter/img/overview.jpg'
-description: 'Documentation for Image Colorspace Converter software.'
+meta_title: 'Image Colorspace Converter'
+meta_image: './software/standalone-colorspace-converter/docs/img/overview.jpg'
+description: 'Standalone application to convert colorspace and file formats for your images.'
 ---
-# Home
+# Image Colorspace Converter
 
-**Image Colorspace Converter**
+!!! warning
 
-Quickly switch colorspaces and file format for your textures, hdris, ...
+    This software is deprecated and not maintained since 2020.
 
-![screenshot of the application on a windows desktop](img/overview.jpg)
+Standalone application to convert colorspace and file formats for your images 
+(textures, hdris, etc.).
+
+![screenshot of the application on a windows desktop](docs/img/overview.jpg)
 
 !!! success "Get the app"
     :material-download: Download the app here: <https://gum.co/pycocs>
@@ -21,9 +24,6 @@ color space. It includes export options such as file format, bit-depth, etc.
 
 The app only works with 2d images. 
 
-!!! warning
-
-    No more development support is provided to this application.
 
 !!! bug "Known limitations & bugs"
 

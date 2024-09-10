@@ -1,5 +1,6 @@
 ---
-title: 'Linux'
+meta_title: 'Image Colorspace Converter - Linux'
+description: 'Documentation for Image Colorspace Converter software.'
 ---
 
 # Running the app on Linux
