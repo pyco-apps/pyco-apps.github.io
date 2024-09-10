@@ -1,8 +1,5 @@
-[data-md-color-scheme=slate] {
-    --md-default-bg-color: radial-gradient(circle, rgb(25, 31, 28) 0%, rgb(1, 6, 10) 100%);
-}
 body {
-    background: var(--md-default-bg-color);
+    background: radial-gradient(circle, rgba(25, 31, 28, 1) 0%, rgba(1, 6, 10, 1) 100%);
 }
 .md-typeset h1 {
     font-family: Urbanist, sans-serif;
