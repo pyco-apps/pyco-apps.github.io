@@ -1,3 +1,8 @@
+---
+meta_title: 'LocaloRender - Nuke tool'
+meta_image: './software/localorender/imgs/localorender-cover.jpg'
+description: 'A Nuke tool to replace the native Render dialog for Write nodes.'
+---
 <link rel="stylesheet" href="localorender.css">
 
 # LocaloRender
