@@ -1,6 +1,7 @@
 ---
 search:
     exclude: true
+nav_exclude_for_others: true
 ---
 
 # Katana - Texture Monitor Tool

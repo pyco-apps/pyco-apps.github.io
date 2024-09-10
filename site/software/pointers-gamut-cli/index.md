@@ -2,6 +2,7 @@
 title: Pointer's Gamut Checker CLI
 search:
     exclude: true
+nav_exclude_for_others: true
 ---
 
 # Pointer's Gamut Checker Command Line Interface
