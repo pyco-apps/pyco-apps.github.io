@@ -54,7 +54,7 @@
     font-weight: 700;
     color: var(--md-accent-fg-color);
 }
-.tabbed-set > .tabbed-content {
+.tabbed-set > .tabbed-content > .tabbed-block:not(:has(div.highlight:only-child)) {
     /*background-color: var(--md-tabbed-bg-color);*/
     border: 1px solid var(--md-typeset-color);
     border-radius: 0 0 0.1rem 0.1rem;
