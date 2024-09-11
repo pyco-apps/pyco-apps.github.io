@@ -5,6 +5,19 @@
     --md-accent-fg-color: #C06934FF;
 }
 
+body[data-md-color-scheme=slate] {
+    background: radial-gradient(circle at top, rgba(190, 104, 52, 0.2) 0%, rgba(148, 187, 233, 0) 60%) no-repeat;
+}
+body[data-md-color-scheme=default] {
+    background: radial-gradient(circle at top, rgba(190, 104, 52, 0.15) 0%, rgba(148, 187, 233, 0) 60%) no-repeat;
+}
+/* because we override background */
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link,
+.md-nav--secondary .md-nav__title {
+    background: transparent;
+    box-shadow: unset;
+}
+
 img {
     border-radius: 0.5rem;
 }
