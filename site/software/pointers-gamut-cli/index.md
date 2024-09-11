@@ -1,4 +1,5 @@
 ---
+icon: 'material/note-check'
 meta_title: Pointer's Gamut Checker CLI
 search:
     exclude: true

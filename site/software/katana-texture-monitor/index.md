@@ -1,4 +1,5 @@
 ---
+icon: 'material/checkerboard'
 search:
     exclude: true
 nav_exclude_for_others: true

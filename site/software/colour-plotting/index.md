@@ -1,4 +1,5 @@
 ---
+icon: 'material/scatter-plot-outline'
 meta_title: 'Colour Plotting - web-app'
 meta_image: 'software/colour-plotting/imgs/colour-plotting-cover.jpg'
 description: 'Web-app to plot colors, images and colorspaces in graphs.'
