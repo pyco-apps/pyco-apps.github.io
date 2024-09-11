@@ -12,6 +12,7 @@ hide:
 <div class="grid cards" markdown>
 
 - [![LocaloRender thumbnail](localorender/imgs/localorender-thumbnail.jpg)](localorender){title="LocaloRender - Nuke tool"}
+- [![GSVDashboard thumbnail](katana-gsvdb/imgs/katana-gsvdb-thumbnail.jpg)](katana-gsvdb){title="GSVDashboard - Katana SuperTool"}
 
 </div>
 
