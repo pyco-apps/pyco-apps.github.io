@@ -1,2 +1,7 @@
 nav:
+  - index.md
+  - "LocaloRender": "localorender"
+  - "Pointer's Gamut CLI": "pointers-gamut-cli"
+  - "Image Colorspace Converter": "standalone-colorspace-converter"
+  - "Katana Texture Monitor": "katana-texture-monitor"
   - ...
