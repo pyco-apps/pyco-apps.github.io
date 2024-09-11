@@ -20,6 +20,7 @@ hide:
 <div class="grid cards" markdown>
 
 - [![temperature2rgb-thumbnail](temperature-to-rgb/imgs/temperature-to-rgb-thumbnail.jpg)](temperature-to-rgb)
+- [![colour-plotting-thumbnail](colour-plotting/imgs/colour-plotting-thumbnail.jpg)](colour-plotting)
 
 </div>
 

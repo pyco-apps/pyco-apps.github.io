@@ -1,0 +1,15 @@
+[data-md-color-scheme=slate] {
+    --md-accent-fg-color: #3e60ce;
+}
+[data-md-color-scheme=default]{
+    --md-accent-fg-color: #3e60ce;
+}
+
+img {
+    border-radius: 0.5rem;
+}
+
+.md-button {
+    width: 100%;
+    text-align: center;
+}
