@@ -1,5 +1,16 @@
 {% extends "base.html" %}
 
+{% block htmltitle %}
+  {% if page and page.meta and page.meta.meta_title %}
+    <title>{{ page.meta.meta_title }} - {{ config.site_name }}</title>
+  {% elif page.meta and page.meta.title %}
+    <title>{{ page.meta.title }} - {{ config.site_name }}</title>
+  {% elif page.title and not page.is_homepage %}
+    <title>{{ page.title | striptags }} - {{ config.site_name }}</title>
+  {% else %}
+    <title>{{ config.site_name }}</title>
+  {% endif %}
+{% endblock %}
 {% block extrahead %}
   {% if page and page.meta and page.meta.meta_title %}
     <meta property="og:title" content="{{ page.meta.meta_title }}"/>

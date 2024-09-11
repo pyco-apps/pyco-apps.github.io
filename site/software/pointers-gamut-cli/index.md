@@ -1,5 +1,5 @@
 ---
-title: Pointer's Gamut Checker CLI
+meta_title: Pointer's Gamut Checker CLI
 search:
     exclude: true
 nav_exclude_for_others: true
