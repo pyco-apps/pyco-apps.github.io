@@ -11,7 +11,7 @@ hide:
 
 <div class="grid cards" markdown>
 
-- [![localorender-thumbnail](localorender/imgs/localorender-thumbnail.jpg)](localorender)
+- [![LocaloRender thumbnail](localorender/imgs/localorender-thumbnail.jpg)](localorender){title="LocaloRender - Nuke tool"}
 
 </div>
 
@@ -19,8 +19,8 @@ hide:
 
 <div class="grid cards" markdown>
 
-- [![temperature2rgb-thumbnail](temperature-to-rgb/imgs/temperature-to-rgb-thumbnail.jpg)](temperature-to-rgb)
-- [![colour-plotting-thumbnail](colour-plotting/imgs/colour-plotting-thumbnail.jpg)](colour-plotting)
+- [![Temperature to RGB thumbnail](temperature-to-rgb/imgs/temperature-to-rgb-thumbnail.jpg)](temperature-to-rgb){title="Temperature To RGB - web app"}
+- [![Colour Plotting thumbnail](colour-plotting/imgs/colour-plotting-thumbnail.jpg)](colour-plotting){title="Colour Plotting - web app"}
 
 </div>
 
