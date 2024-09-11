@@ -15,6 +15,14 @@ hide:
 
 </div>
 
+## web-apps
+
+<div class="grid cards" markdown>
+
+- [![temperature2rgb-thumbnail](temperature-to-rgb/imgs/temperature-to-rgb-thumbnail.jpg)](temperature-to-rgb)
+
+</div>
+
 ## Deprecated
 
 | name                                                                   | type           | description                               | last updated |
