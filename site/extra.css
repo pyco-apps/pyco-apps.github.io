@@ -23,6 +23,7 @@
 }
 [data-md-color-scheme=default] {
     --md-accent-fg-color: #03d06b;
+    --md-code-bg-color: hsla(var(--md-hue), 15%, 95%, 1);
     --md-accent-fg-color--transparent: rgba(33, 231, 133, 0.5);
     --md-tabbed-bg-color: hsla(var(--md-hue), 15%, 98%, 1);
 
@@ -54,6 +55,8 @@
     color: var(--md-accent-fg-color);
 }
 .tabbed-set > .tabbed-content {
-    background-color: var(--md-tabbed-bg-color);
-    padding: 15px;
+    /*background-color: var(--md-tabbed-bg-color);*/
+    border: 1px solid var(--md-typeset-color);
+    border-radius: 0 0 0.1rem 0.1rem;
+    padding: .4rem .9rem .4rem .9rem;
 }
