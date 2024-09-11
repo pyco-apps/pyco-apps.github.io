@@ -1,5 +1,6 @@
 ---
 icon: 'material/temperature-kelvin'
+title: 'Temperature To RGB - web-app'
 meta_title: 'Temperature To RGB - web-app'
 meta_image: 'software/temperature-to-rgb/imgs/screenshot-overview.png'
 description: 'web-app to convert Kelvin temperature to RGB colorspaces.'
