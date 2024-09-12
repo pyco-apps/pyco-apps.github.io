@@ -1,0 +1,44 @@
+body[data-md-color-scheme=slate] {
+    background: radial-gradient(circle, rgba(25, 31, 28, 1) 0%, rgba(1, 6, 10, 1) 100%);
+}
+body[data-md-color-scheme=default] {
+    background: radial-gradient(circle, rgb(224, 245, 231) 0%, rgba(192, 221, 248, 0.1) 90%);
+}
+.md-typeset h1,
+.md-typeset h2 {
+    font-family: Urbanist, sans-serif;
+    text-align: center;
+}
+.md-typeset h1 {
+    font-size: 3rem;
+}
+.md-typeset h1 > a {
+    font-size: 1rem;
+}
+.md-typeset .grid.cards {
+    grid-template-columns: repeat(auto-fit,minmax(min(100%,16rem),0.33fr));
+    justify-content: center;
+}
+.md-typeset .grid.cards > ul > li {
+    border-radius: 0.3rem;
+    background: radial-gradient(circle, rgba(174, 238, 194, 0.1) 0%, rgba(148,187,233,0.1) 100%);
+    border-color: transparent;
+    box-shadow: var(--md-shadow-z3);
+    margin: 0.5rem;
+    transition: margin 0.1s ease-out;
+}
+.md-typeset .grid.cards > ul > li:hover{
+    border-color: rgba(200,210,240,0.2);
+    margin: 0.1rem;
+    transition: margin 0.15s ease-out;
+}
+.md-typeset .grid.cards > ul > li img {
+    border-radius: 0.3rem;
+}
+
+.md-typeset__table {
+    display: unset;
+}
+.md-typeset__table table:not([class]) {
+    display: table;
+}

@@ -1,0 +1,23 @@
+[data-md-color-scheme=slate] {
+    --md-accent-fg-color: #DADA2C;
+    --md-default-bg-color: #323232;
+    --md-tabbed-bg-color: hsl(60, 5%, 21%);
+}
+[data-md-color-scheme=default]{
+    --md-accent-fg-color: #bebe23;
+    --md-default-bg-color: hsl(60, 10%, 98%);
+    --md-tabbed-bg-color: hsl(60, 15%, 96%);
+}
+
+.md-button {
+    width: 49%;
+    text-align: center;
+}
+
+.localo-button-1 {
+    background-color: rgba(255,255,255,0.2);
+}
+
+h2#features + ul .twemoji {
+    color: var(--md-accent-fg-color);
+}
