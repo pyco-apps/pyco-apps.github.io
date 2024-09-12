@@ -1,4 +1,5 @@
 ---
+title: 'LocaloRender - Documentation - Install'
 meta_title: 'LocaloRender - Documentation - Install'
 meta_image: './software/localorender/imgs/localorender-cover.jpg'
 description: 'A Nuke tool to replace the native Render dialog for Write nodes.'

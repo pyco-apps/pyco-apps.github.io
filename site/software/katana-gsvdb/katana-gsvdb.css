@@ -1,0 +1,32 @@
+[data-md-color-scheme=slate] {
+    --md-accent-fg-color: #e0de53;
+}
+[data-md-color-scheme=default]{
+    --md-accent-fg-color: #66b046;
+}
+
+body[data-md-color-scheme=slate] {
+    background: radial-gradient(circle at top, rgba(163, 227, 62, 0.15) 0%, rgba(148, 187, 233, 0) 60%) no-repeat;
+    background-color: var(--md-default-bg-color);
+}
+body[data-md-color-scheme=default] {
+    background: radial-gradient(circle at top, rgba(163, 227, 62, 0.15) 0%, rgba(148, 187, 233, 0) 60%) no-repeat;
+}
+/* because we override background */
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link,
+.md-nav--secondary .md-nav__title {
+    background: transparent;
+    box-shadow: unset;
+}
+
+img {
+    border-radius: 0.5rem;
+}
+
+.md-typeset .md-button {
+    width: 49%;
+    text-align: center;
+}
+.md-typeset .md-button:hover {
+    color: var(--md-default-bg-color);
+}

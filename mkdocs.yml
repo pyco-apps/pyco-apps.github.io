@@ -37,6 +37,7 @@ theme:
     - search.suggest
     - content.code.annotate
     - content.code.copy
+    - content.tabs.link
     - navigation.tabs
     - navigation.top
     - navigation.indexes

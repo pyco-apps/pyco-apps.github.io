@@ -1,4 +1,5 @@
 ---
+icon: 'material/image-sync'
 meta_title: 'Image Colorspace Converter'
 meta_image: './software/standalone-colorspace-converter/docs/img/overview.jpg'
 description: 'Standalone application to convert colorspace and file formats for your images.'

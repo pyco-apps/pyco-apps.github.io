@@ -1,0 +1,28 @@
+[data-md-color-scheme=slate] {
+    --md-accent-fg-color: #4a6ee3;
+}
+[data-md-color-scheme=default] {
+    --md-accent-fg-color: #3e60ce;
+}
+
+body[data-md-color-scheme=slate] {
+    background: radial-gradient(circle at top, rgba(62, 96, 206, 0.45) 0%, rgba(148, 187, 233, 0) 60%) no-repeat;
+}
+body[data-md-color-scheme=default] {
+    background: radial-gradient(circle at top, rgba(72, 117, 248, 0.15) 0%, rgba(148, 187, 233, 0) 60%) no-repeat;
+}
+/* because we override background */
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link,
+.md-nav--secondary .md-nav__title {
+    background: transparent;
+    box-shadow: unset;
+}
+
+img {
+    border-radius: 0.5rem;
+}
+
+.md-button {
+    width: 100%;
+    text-align: center;
+}
