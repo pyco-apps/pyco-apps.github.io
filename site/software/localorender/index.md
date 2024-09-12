@@ -39,3 +39,9 @@ A Nuke tool to replace the native Render dialog for Write nodes.
 ## documentation
 
 [Check Documentation](docs){.md-button}
+
+## demo
+
+<video controls>
+    <source src="imgs/localorender-demo.mp4" type="video/mp4">
+</video>
